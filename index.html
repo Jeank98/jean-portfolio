@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/img/brand.png">
+    
+    <!-- =====BOX ICONS===== -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--===== JQuery =====-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    
+    <title>Jean's Portfolio</title>
+</head>
+<body>
+    <!--===== HEADER =====-->    
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <img src="assets/img/brand.png" alt="brand" class="nav__brand-icon">
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Jean</span><br> Jr. Data Scientist <br> Industrial Engineer</br> </h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/jeanpalencia" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Jeank98" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="home__img">    
+                <img src="assets/img/avatar.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">  
+                <div class="about__img">
+                    <img src="assets/img/me.png" alt="Me">
+                </div>              
+                <div>
+                    <h2 class="about__subtitle">I'm Jean</h2>
+                    <p class="about__text">Data Scientist and Industrial Engineer with knowledge in Python programming, SQL, exploratory data analysis, descriptive statistics, data visualization, fundamentals on machine learning models and data-driven decision making.</p>           
+                </div>                                   
+            </div>
+        </section>
+        
+    
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">          
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">My technical level</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon'></i>
+                            <span class="skills__name">PYTHON</span>
+                        </div>
+                        <div class="skills__bar skills__python">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-data skills__icon' ></i>
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__bar skills__sql">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-bar-chart-alt skills__icon' ></i>
+                            <span class="skills__name">STATISTICAL ANALYSIS</span>
+                        </div>
+                        <div class="skills__bar skills__statistics">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-brain skills__icon'></i>
+                            <span class="skills__name">MACHINE LEARNING</span>
+                        </div>
+                        <div class="skills__bar skills__ml">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <i class='bx bxl-css3 skills__icon' ></i>
+                            <span class="skills__name">HTML5/CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__front">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+
+                        
+                </div>
+                
+                <div>              
+                    <img src="https://imagizer.imageshack.com/v2/1016x677q50/923/h7dlBt.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+        
+    
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="assets/img/properatiproject.jpg" alt="Properati project">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Price predictor model</div>
+                        <p class="image__description">
+                            Price predictor for properties in Buenos Aires, Argentina.
+                        </p>
+                        <a href="https://github.com/Jeank98/properati-model" target="_blank" class="button">Show more</a>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/cia.jpg" alt="Cia declassified">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Platzi Intelligence Agency</div>
+                        <p class="image__description">
+                            Cia declassified documents website built with web scraping and frontend tools.
+                        </p>
+                        <a href="https://jeank98.github.io/platzi-intelligence-agency/" target="_blank" class="button">Show more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="https://formspree.io/f/xknkzejy" method="POST" class="contact__form">
+                    <label><input id="name" type="text" placeholder="Name" class="contact__input" name="name" required></label>
+                    <label><input id="email" type="mail" placeholder="Email" class="contact__input" name="email" required></label>
+                    <label><textarea  name="message" id="message" cols="0" rows="10" placeholder="¿How can I help you?" class="contact__input" required></textarea></label>
+                    <button type="submit" class="button submit">Send</button>
+                    <div class="status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    </main>    
+    
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Jean Palencia</p>
+        <!-- <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div> -->
+        <p>&#169; 2021 copyright all right reserved</p>
+    </footer>
+    
+    
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
