@@ -362,12 +362,12 @@ img {
     transform: translateY(0);
 }
 .image__title {
-    font-size: 2em;
+    font-size: 1.75em;
     font-weight: bold;
     text-align: center;
 }
 .image__description {
-    font-size: 1.25em;
+    font-size: 1.20em;
     margin-top: 0.25em;
     text-align: center;
 }
@@ -484,9 +484,9 @@ img {
     width: 300px;
     }
     .work__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    column-gap: 2rem;
+    column-gap: 1.5rem;
     }
     .contact__form {
     width: 560px;
