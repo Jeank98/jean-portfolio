@@ -79,6 +79,10 @@ img {
     display: block;
 }
 
+::placeholder{
+    font-family: var(--body-font);
+}
+
 /*===== CLASS CSS ===== */
 .section-title {
     position: relative;
